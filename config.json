@@ -1,0 +1,15 @@
+{
+  "UseMatchmaker": false,
+  "LogToFile": true,
+  "LogVerbose": true,
+  "AdditionalRoutes": {},
+  "MatchmakerAddress": "127.0.0.1",
+  "MatchmakerPort": 9999,
+  "PublicIp": "localhost",
+  "HttpPort": 80,
+  "HttpsPort": 443,
+  "StreamerPort": 8888,
+  "SFUPort": 8889,
+  "MaxPlayerCount": -1,
+  "peerConnectionOptions": "{\"iceServers\":[{\"urls\":[\"turn:100.26.179.249:3478\",\"stun:100.26.179.249:3478\"],\"username\":\"georef\",\"credential\":\"eHLB8gEnsFxneK6\"}]}"
+}

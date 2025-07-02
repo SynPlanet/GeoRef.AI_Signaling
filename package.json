@@ -1,0 +1,35 @@
+{
+  "name": "@epicgames-ps/cirrus-webserver",
+  "version": "0.0.0",
+  "description": "Signalling server",
+  "private": true,
+  "scripts": {
+    "start": "node ./cirrus.js"
+  },
+  "dependencies": {
+    "@opensearch-project/opensearch": "^2.13.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "express": "^4.19.2",
+    "express-rate-limit": "^6.7.0",
+    "express-session": "^1.15.6",
+    "helmet": "^3.21.3",
+    "jwks-rsa": "^3.0.1",
+    "lusca": "^1.7.0",
+    "run-script-os": "^1.1.6",
+    "ws": "^7.1.2",
+    "y18n": "^5.0.5",
+    "yargs": "^15.3.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.theinvaders.pro/digital_twin/pixelstreaminginfrastructure.git"
+  }
+}
